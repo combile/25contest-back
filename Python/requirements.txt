@@ -1,0 +1,5 @@
+#설치명령어 -> Python 디렉토리에서 해당 명령어 실행
+#pip install -r requirements.txt
+
+#OpenAI 라이브러리 설치
+openai==1.52.2
