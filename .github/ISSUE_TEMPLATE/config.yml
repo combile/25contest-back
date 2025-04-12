@@ -1,0 +1,19 @@
+blank_issues_enabled: false
+
+contact_links: []
+
+issue_templates:
+  - name: Feature Issue
+    description: 새로운 기능 개발을 위한 이슈입니다.
+    labels: ['feat']
+    file: feat-issue.yaml
+
+  - name: Bug Report
+    description: 오류 또는 예외 상황을 제보합니다.
+    labels: ['bug']
+    file: bug-issue.yaml
+
+  - name: Refactor Task
+    description: 기능 변경 없이 코드 구조 개선이 필요한 작업입니다.
+    labels: ['refactor']
+    file: refactor-issue.yaml
