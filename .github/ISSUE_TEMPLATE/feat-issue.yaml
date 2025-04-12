@@ -1,7 +1,7 @@
 name: feat issue template
 description: 새로운 기능 개발을 위한 이슈를 생성해주세요.
-title: 'feat: 작업 제목'
-labels: ['feat']
+title: 'Feat: 작업 제목'
+labels: ['Feat']
 assignees: []
 
 body:
