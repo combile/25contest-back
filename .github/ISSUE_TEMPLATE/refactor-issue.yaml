@@ -1,4 +1,4 @@
-name: refactor task
+name: refactor issue template
 description: 기능 변경 없이 코드 품질이나 구조 개선을 위한 작업입니다.
 title: 'refactor: '
 labels: ['refactor']

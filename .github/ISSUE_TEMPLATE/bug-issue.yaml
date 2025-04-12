@@ -1,4 +1,4 @@
-name: bug report
+name: bug issue template
 description: 발생한 오류나 문제를 제보해주세요.
 title: 'fix: '
 labels: ['bug']
