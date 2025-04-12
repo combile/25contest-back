@@ -1,0 +1,53 @@
+name: bug report
+description: 발생한 오류나 문제를 제보해주세요.
+title: 'fix: '
+labels: ['bug']
+assignees: []
+
+body:
+  - type: textarea
+    id: bug-desc
+    attributes:
+      label: 🐞 어떤 버그인가요?
+      description: 발생한 오류 또는 문제를 간단히 설명해주세요.
+      placeholder: ex) 회원가입 시 이메일 중복 체크가 작동하지 않아요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: 🔁 재현 방법 (Steps to Reproduce)
+      description: 어떤 상황에서 문제가 발생했는지 단계별로 작성해주세요.
+      placeholder: |
+        1. 회원가입 페이지 접속
+        2. 이미 등록된 이메일 입력
+        3. 에러 메시지가 나타나지 않음
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 🧠 기대했던 동작
+      description: 원래 기대했던 동작은 무엇인가요?
+      placeholder: ex) 중복된 이메일이면 "이미 등록된 이메일입니다" 메시지가 떠야 해요.
+
+  - type: textarea
+    id: logs-or-screenshot
+    attributes:
+      label: 🖼️ 로그/스크린샷
+      description: 콘솔 로그나 스크린샷 등 오류를 보여줄 수 있는 자료가 있다면 첨부해주세요.
+      placeholder: 예: 콘솔 로그 복사 / 에러 화면 캡처
+
+  - type: checkboxes
+    id: env
+    attributes:
+      label: 💻 발견된 환경
+      description: 문제가 발생한 환경을 체크해주세요.
+      options:
+        - label: 브라우저: Chrome
+        - label: 브라우저: Safari
+        - label: 로컬 환경
+        - label: Dev 서버
+        - label: 운영 서버
