@@ -1,8 +1,9 @@
 name: Pull Request 템플릿
 description: PR 생성 시 작성할 내용을 안내합니다.
-title: 'feat: '
-labels: []
-assignees: []
+title: 'Feat: '
+labels: ["⚙️Back-End","🔥Review"]
+reviewers: ["OH0LYW4T3R"]
+# assignees: []
 
 body:
   - type: input
