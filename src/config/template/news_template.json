@@ -1,0 +1,10 @@
+{
+    "domain": "도메인",
+    "news_id": "뉴스 아이디",
+    "creatAt": "뉴스 작성일자",
+    "title": "제목",
+    "author": "기고자",
+    "imageUrl": "이미지 주소",
+    "feature": "뉴스 특성(상위 50개)",
+    "content": "본문"
+}
