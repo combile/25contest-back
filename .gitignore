@@ -9,3 +9,6 @@ __pycache__
 
 #원본 엑셀 파일
 sample.xlsx
+
+#데이터 전처리용 ipynb
+process_data.ipynb
